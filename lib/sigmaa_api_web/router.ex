@@ -9,5 +9,7 @@ defmodule SigmaaApiWeb.Router do
     pipe_through :api
 
     get "/", RootController, :index
+
+    resources "/users", UserController, only: [:create, :show]
   end
 end
