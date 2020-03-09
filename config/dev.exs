@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :sigmaa_api, SigmaaApi.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "sigmaa_api_dev",
+  password: "sigmaadev1234",
+  database: "sigmaadev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
